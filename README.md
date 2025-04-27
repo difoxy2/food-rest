@@ -1,10 +1,10 @@
 Some stuff
 
-### Endpoints
+## Endpoints
 
 base url: https://difoxy2.pythonanywhere.com
 
-#### Login
+### Login
 
 | Endpoint                         | Usage                                                                     | Role			required<br />(Authorization:			Bearer {token}) |
 | -------------------------------- | ------------------------------------------------------------------------- | :----------------------------------------------------: |
@@ -14,7 +14,7 @@ base url: https://difoxy2.pythonanywhere.com
 
 
 
-#### Business Logic
+### Business Logic
 
 | Endpoint                                                                                                               | Usage                                                                                                  | Role			required<br />(Authorization:			Bearer {token} |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
@@ -37,7 +37,7 @@ base url: https://difoxy2.pythonanywhere.com
 
 
 
-#### User Role Management
+### User Role Management
 
 | Endpoint                                                 | Usage                                                                             | Role			required <br />(Authorization:			Bearer {token}) |
 | -------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------- |
