@@ -1,10 +1,10 @@
 Some stuff
 
-## Endpoints
+### Endpoints
 
 base url: https://difoxy2.pythonanywhere.com
 
-### Login
+#### Login
 
 | Endpoint                         | Usage                                                                     | Role			required<br />(Authorization:			Bearer {token}) |
 | -------------------------------- | ------------------------------------------------------------------------- | :----------------------------------------------------: |
@@ -14,10 +14,10 @@ base url: https://difoxy2.pythonanywhere.com
 
 
 
-### Business Logic
+#### Business Logic
 
-| Endpoint                         | Usage                                                                     | Role			required<br />(Authorization:			Bearer {token}) |
-| -------------------------------- | ------------------------------------------------------------------------- | :----------------------------------------------------: |
+| Endpoint                                                                                                               | Usage                                                                                                  | Role			required<br />(Authorization:			Bearer {token} |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
 | /api/menu-items<br />`GET option query string: ?category=main&max_price=6&min_price=4&orderby=price&perpage=5&page2` | Lists			all menu items                                                                                 | --                                                    |
 | /api/menu-items/{menuItemId}<br />`GET`                                                                              | Lists			single menu item                                                                               | --                                                    |
 | /api/menu-items<br />`POST`                                                                                          | Creates			a new menu item<br />`body {title, price, category_id}`                                    | Admin			or Manager                                    |
@@ -37,10 +37,10 @@ base url: https://difoxy2.pythonanywhere.com
 
 
 
-### User Role Management
+#### User Role Management
 
-| Endpoint                         | Usage                                                                     | Role			required<br />(Authorization:			Bearer {token}) |
-| -------------------------------- | ------------------------------------------------------------------------- | :----------------------------------------------------: |
+| Endpoint                                                 | Usage                                                                             | Role			required <br />(Authorization:			Bearer {token}) |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | /api/groups/manager/users<br />`GET`                   | Returns			all managers                                                            | Admin			or Manager                                      |
 | /api/groups/manager/users<br />`POST`                  | Assigns			the user in the payload to the manager group<br />`body {username}`   | Admin			or Manager                                      |
 | /api/groups/manager/users/{userId}<br />`DELETE`       | Removes			manager			from manager role                                             | Admin			or Manager                                      |
