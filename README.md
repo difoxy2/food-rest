@@ -8,13 +8,11 @@ The API is hosted on https://difoxy2.pythonanywhere.com for testing. Feel free t
 
 Put these in body of request as Authorization: Bearer {token}
 
-admin  2b75107a90c6965379ff0400f7dc738784d45914
-
-customer  b427787f904ab87730b50bee0228470f0bece043	540bd58a7a3762d1509809d9c35d2ff0fee63855	85bbec8f60ec673df9861471d4ae8c6e37ee1b47	
-
-manager  7efa93e5c1251de21f7415c4ccba26c7ecdea635	561b991399c46a06ba4845f4ab67f6b1964a4b3f	
-
-deliverycrew  1e8d9258c225ffeee2fc76dea7158f6837279039	b49d602b9656d4a2b181bb9c2c32f793600cecd1	44fc8cdeda71680b5bf7635fc028340553f3872a	
+| admin        | `2b75107a90c6965379ff0400f7dc738784d45914`                                                                                           |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| customer     | `b427787f904ab87730b50bee0228470f0bece043`	`540bd58a7a3762d1509809d9c35d2ff0fee63855`	`85bbec8f60ec673df9861471d4ae8c6e37ee1b47` |
+| manager      | `7efa93e5c1251de21f7415c4ccba26c7ecdea635`	`561b991399c46a06ba4845f4ab67f6b1964a4b3f`                                              |
+| deliverycrew | `1e8d9258c225ffeee2fc76dea7158f6837279039`	`b49d602b9656d4a2b181bb9c2c32f793600cecd1`	`44fc8cdeda71680b5bf7635fc028340553f3872a` |
 
 ## Endpoints
 
