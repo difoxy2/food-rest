@@ -18,6 +18,8 @@ Put these in body of request as Authorization: Bearer {token}
 
 base url: https://difoxy2.pythonanywhere.com
 
+
+
 ### Login
 
 | Endpoint                         | Usage                                                                     | Role			required<br />(Authorization:			Bearer {token}) |
@@ -25,6 +27,7 @@ base url: https://difoxy2.pythonanywhere.com
 | /auth/users<br />`POST`        | Creates			a new user account<br />`body {username, email and password}` |                           --                           |
 | /auth/users/me/<br />`GET`     | Displays			current user details                                           |                 Any			valid user token                 |
 | /auth/token/login/<br />`POST` | Retrieve			access tokens for user<br />`body {username, password}`      |                           --                           |
+
 
 
 
@@ -48,6 +51,7 @@ base url: https://difoxy2.pythonanywhere.com
 | /api/orders/{orderId}<br />`PATCH`                                                                                   | Update			“delivery_crew”			or “status”			field of this order<br />`body {delivery_crew, status}` | Manager                                               |
 | /api/orders/{orderId}<br />`PATCH`                                                                                   | Update			“status”			field of this order<br />`body {delivery_crew, status}`                        | Delivery			crewassigned			to this order               |
 | /api/orders/{orderId}<br />`DELETE`                                                                                  | Delete			order                                                                                         | Manager                                               |
+
 
 
 
